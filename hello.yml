@@ -1,12 +1,12 @@
 - name: Just say Hello
-  host: inventory
+  host: all
   task:
     - name: say Hello
       ansible.builtin.debug:
         msg: Hello Jude
 
 - name: Just say Welcome Home
-  host: inventory
+  host: all
   task:
     - name: say Welcome
       ansible.builtin.debug:
