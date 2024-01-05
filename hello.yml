@@ -1,5 +1,5 @@
 - name: Just say Hello
-  host: all
+  host: inventory
   task:
     - name: say Hello
       ansible.builtin.debug:
