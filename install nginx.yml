@@ -1,4 +1,4 @@
-- name: Install Apache >= 2.4
+- name: Install Apache latest
   ansible.builtin.dnf:
     name: httpd >= 2.4
     state: present
