@@ -5,9 +5,9 @@
       ansible.builtin.debug:
         msg: Hello Jude
 
-- name: Just say Hello
+- name: Just say Welcome Home
   host: all
   task:
-    - name: say Hello
+    - name: say Welcome
       ansible.builtin.debug:
         msg:  Welcome Home!!!
