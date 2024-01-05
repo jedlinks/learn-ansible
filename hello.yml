@@ -6,7 +6,7 @@
         msg: Hello Jude
 
 - name: Just say Welcome Home
-  host: all
+  host: inventory
   task:
     - name: say Welcome
       ansible.builtin.debug:
