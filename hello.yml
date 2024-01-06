@@ -1,11 +1,11 @@
-- name: Just to say Hello
+- name: say Hello
   hosts: all
   task:
   -   name: say Hello
       ansible.builtin.debug:
         msg: Hello Jude
 
-- name: Just say Welcome Home
+- name: say Welcome Home
   host: all
   task:
     - name: say Welcome
