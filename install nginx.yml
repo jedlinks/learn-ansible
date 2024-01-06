@@ -1,4 +1,5 @@
-- name: Install Apache latest
+- name: Install Nginx
+  hosts: all
   ansible.builtin.dnf:
-    name: httpd >= 2.4
-    state: present
+    name: nginx
+    state: installed
