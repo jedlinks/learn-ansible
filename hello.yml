@@ -1,7 +1,7 @@
 - name: say Hello
   hosts: all
   task:
-  -   name: say Hello
+    - name: say Hello
       ansible.builtin.debug:
         msg: Hello Jude
 
