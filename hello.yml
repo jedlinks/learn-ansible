@@ -1,5 +1,5 @@
-- name: Just say Hello
-  host: all
+- name: Just to say Hello
+  hosts: all
   task:
   -   name: say Hello
       ansible.builtin.debug:
